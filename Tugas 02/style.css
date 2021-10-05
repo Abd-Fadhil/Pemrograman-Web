@@ -1,0 +1,35 @@
+body {
+    background-color: aqua;
+    color: black;
+    font-family:Italianno, serif;
+    min-height: 100vh;
+}
+
+header {
+    font-size: 1.5rem;
+}
+
+header,
+h1{
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#input-item {
+    width: 400px;
+    margin: auto;
+}
+
+button {
+    color: black;
+    background: white;
+    cursor: pointer;
+    transition:all 0.3s ease;
+}
+
+
+
